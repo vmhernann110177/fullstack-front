@@ -1,1 +1,2 @@
-Creado y editado desde locar por Victor Hernández
+Creado y editado desde local por Victor Hernández.
+Nueva edicion desde web.
