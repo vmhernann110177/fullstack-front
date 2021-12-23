@@ -20,7 +20,7 @@
     
     <form id="checaCampos" method="POST" action="http://localhost:5000/pizza">
 
-        <!-- Inicia div datos del cliente -->
+        <!-- Inicia, div datos del cliente -->
         <div  class="divFondoDatos_del_cliente">    
             <H2>Datos del cliente:</H2>
         
@@ -45,21 +45,21 @@
                 <textarea id="p5" name="p5" rows="10" cols="42"></textarea>
             </div>
         </div>
-        <!-- fin div datos del cliente -->
+        <!-- fin, div datos del cliente -->
 
-        <!-- Inicia div datos del pedido -->
+        <!-- Inicia, div datos del pedido -->
         <div class="divFondoDatos_del_pedido">
             <div>
                 <H2>Datos del pedido:</H2>
             </div>
             <div>
                 <label for="p6">Seleccione el tamaño de la pizza </label>
-                <select id="p6" name="p6">
+                <select id="p6" name="p6" onchange="Disponibilidad();">
                     <option value="" disabled selected>seleccione una opción</option>
                     <option id="pequeña">Pequeña</option>
                     <option id="mediana">mediana</option>
                     <option id="grande" >grande</option>
-                    <option id="XXL" >¡Extra grande XXL!</option>
+                    <option id="XXL" >¡Extra grande XXL!!</option>
                 </select>
             </div>
 
@@ -86,7 +86,7 @@
                 </div>
 
         </div>
-            <!-- Inicia div datos del pedido -->
+            <!-- Fin, div datos del pedido -->
 
         <button type="reset">Limpiar y cambiar pedido</button>
         <button type="Submit">Enviar</button>
