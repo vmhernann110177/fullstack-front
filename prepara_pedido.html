@@ -17,10 +17,12 @@
     <div  class="divLogo"></div>
     <div id="alertas"></div>
     <div class="divNombrePagina">Pizzas Full Stack</div>
-    
+
+    <!-- *********** -->
+
     <form id="checaCampos" method="POST" action="http://localhost:5000/pizza">
 
-        <!-- Inicia, div datos del cliente -->
+        <!-- Inicia div datos del cliente -->
         <div  class="divFondoDatos_del_cliente">    
             <H2>Datos del cliente:</H2>
         
@@ -45,9 +47,9 @@
                 <textarea id="p5" name="p5" rows="10" cols="42"></textarea>
             </div>
         </div>
-        <!-- fin, div datos del cliente -->
+        <!-- fin div datos del cliente -->
 
-        <!-- Inicia, div datos del pedido -->
+        <!-- Inicia div datos del pedido -->
         <div class="divFondoDatos_del_pedido">
             <div>
                 <H2>Datos del pedido:</H2>
@@ -59,8 +61,10 @@
                     <option id="pequeña">Pequeña</option>
                     <option id="mediana">mediana</option>
                     <option id="grande" >grande</option>
-                    <option id="XXL" >¡Extra grande XXL!!</option>
+                    <option id="XXL" >¡Extra grande XXL!</option>
                 </select>
+                <span id="resultado_tamano"></span>
+                    <label id="lblDisponibilidad"></label>
             </div>
 
             <H4>Ingredientes deseados:</H4>
@@ -86,7 +90,7 @@
                 </div>
 
         </div>
-            <!-- Fin, div datos del pedido -->
+            <!-- Inicia div datos del pedido -->
 
         <button type="reset">Limpiar y cambiar pedido</button>
         <button type="Submit">Enviar</button>
